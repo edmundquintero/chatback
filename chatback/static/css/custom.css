@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body{
+    padding: 0 20px;
+}
+body.section-getstarted div#content .videos {
+    margin:40px;
+}
+
+body.section-getstarted div#content .collapse.in {
+    height: auto;
+}
+body.section-getstarted div#content .collapse {
+    -moz-transition: height 0.35s ease 0s;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+body.section-getstarted div#content div#content-core div#accordion2 {
+    margin-bottom:60px;
+}
+body.section-getstarted div#content div.getstarted-steps img {
+    float:left;
+}
+body.section-getstarted div#content div#school-catagory {
+    border-bottom: #c8c8c8 1px solid;
+        padding-bottom: 20px;
+}
+body.section-getstarted div#content div.school-catagory img {
+    float: left;
+}
+body.section-getstarted div#content div.row {
+    margin:10px 0;
+}
+body.section-getstarted div#content div#submit-trans {
+    padding-top: 5px;
+}
+body.section-getstarted div#content div.getstarted-steps {
+    margin:25px 20px    
+}
+body.section-getstarted div#content div#getstarted-home img {
+    margin:10px 0;  
+}
+body.section-getstarted div#content div#getstarted-home {
+    margin-bottom:40px; 
+}
+body.section-getstarted div#content div#content-core p#getstarted-intro {
+    font-size: 16px;
+}
+
+body.section-getstarted div#content .offset4 {
+        color:#595959
+} 
+body.section-getstarted div#content a.btn {
+    margin:6px; 
+}
+body.section-getstarted div#content div#content-core div.getstarted-steps .lead {
+        font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+        color:#333333;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+body.section-getstarted #content p {
+  margin: 0 0 9px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+body.section-getstarted {
+    padding-left: 0;
+    padding-top: 0;
+}
+body.section-getstarted .getstarted-intro {
+    font-size: 16px;
+}
+body.section-getstarted div#content div#content-core h2 {
+    color: #595959;
+    font-size: 23px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-weight: 500;
+    height: 70px;
+    text-rendering: optimizelegibility;
+}
+body.section-getstarted div#content div#content-core h3 {
+    color:#595959;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 10px 10px 20px;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+}
+body.section-getstarted div#content div#content-core h4 {
+    color:#595959;
+    margin: 0;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+}
+body.section-getstarted div#content div#content-core h1 {
+    color:#888888;
+    font-size: 30px;
+    line-height: 36px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    text-rendering: optimizelegibility;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+body.section-getstarted #content #content-core ul {
+    list-style: none outside none;
+}
+
+body.section-getstarted .btn-warning {
+    background-color: #DE8202;
+    background-image: -moz-linear-gradient(top, #E08300, #CC6600);
+    background-image: -ms-linear-gradient(top, #E08300, #CC6600);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E08300), to(#CC6600));
+    background-image: -webkit-linear-gradient(top, #E08300, #CC6600);
+    background-image: -o-linear-gradient(top, #E08300, #CC6600);
+    background-image: linear-gradient(top, #E08300, #CC6600);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E08300', endColorstr='#CC6600', GradientType=0);
+    border-color: #f89406 #f89406 #ad6704;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+body.section-getstarted .btn-warning:hover, body.section-getstarted .btn-warning:active, body.section-getstarted .btn-warning.active, body.section-getstarted .btn-warning.disabled, body.section-getstarted .btn-warning[disabled] {
+    background-color: #cc6600;
+}
+body.section-getstarted .btn-warning:active, body.section-getstarted .btn-warning.active {
+    background-color: #c77502 \9;
+}
+body.section-getstarted .btn-success {
+    background-color: #49A349;
+    background-image: -moz-linear-gradient(top, #51a351, #338033);
+    background-image: -ms-linear-gradient(top, #51a351, #338033);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#51a351), to(#338033));
+    background-image: -webkit-linear-gradient(top, #51a351, #338033);
+    background-image: -o-linear-gradient(top, #51a351, #338033);
+    background-image: linear-gradient(top, #51a351, #338033);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#51a351', endColorstr='#338033', GradientType=0);
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+body.section-getstarted .btn-success:hover, body.section-getstarted .btn-success:active, body.section-getstarted .btn-success.active, body.section-getstarted .btn-success.disabled, body.section-getstarted .btn-success[disabled] {
+    background-color: #338033;
+}
+body.section-getstarted .btn-success:active, body.section-getstarted .btn-success.active {
+    background-color: #408140 \9;
+}
+body.section-getstarted .btn-warning, body.section-getstarted .btn-warning:hover, body.section-getstarted .btn-success, body.section-getstarted .btn-success:hover {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+body.section-getstarted div#content a.btn-success:link, body.section-getstarted div#content a.btn-warning:link, body.section-getstarted div#content a.btn-success:visited, body.section-getstarted div#content a.btn-warning:visited, body.section-getstarted div#content a.btn-success:hover, body.section-getstarted div#content a.btn-warning:hover, body.section-getstarted div#content a.btn-success:active, body.section-getstarted div#content a.btn-warning:active {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+body.section-getstarted div#content a.btn-home:link,
+body.section-getstarted div#content a.btn-home:visited,
+body.section-getstarted div#content a.btn-home:hover,
+body.section-getstarted div#content a.btn-home:active {
+    color: #333333 !important;
+    text-decoration: none !important;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border: 1px solid #cccccc;
+    border-bottom-color: #b3b3b3;
+}
+body.section-getstarted div#content div#content-core div#tours {
+    width:300px; 
+    margin:20px 0 30px 340px; 
+    color:#595959;
+        font-size:15px; 
+}
+body.section-getstarted .span12 {
+    width: 970px;
+}
+#types-steps{display:none;}

@@ -1,0 +1,42 @@
+[
+    {
+        "pk": 1,
+        "model": "getstarted.type",
+        "fields": {
+            "description": "Students taking courses that count for credit toward a degree, diploma or a credit certificate. ",
+            "title": "College Credit"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "getstarted.type",
+        "fields": {
+            "description": "",
+            "title": "International F-1 Visa"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "getstarted.type",
+        "fields": {
+            "description": "",
+            "title": "High School / home School"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "getstarted.type",
+        "fields": {
+            "description": "Students taking non-degree classes for job and career enhancement or personal enrichment.",
+            "title": "Corporate and Continued Education"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "getstarted.type",
+        "fields": {
+            "description": "Students taking classes in GED Preparation, Adult High School, English as a Second Language (ESL), or Pathways to Employment are a part of the new College and Career Readiness Program.",
+            "title": "GED, Adult High School, ESL, Pathways"
+        }
+    }
+]
