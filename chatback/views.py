@@ -1,5 +1,5 @@
 from chatback.models import *
-
+from rest_framework.renderers import *
 from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
@@ -8,7 +8,7 @@ from django.views.generic.simple import direct_to_template
 
 def Index(request):
 
-    return direct_to_template(request, 'index.html', {})
+    return direct_to_template(request, '../chatterbox/app/index.html', {})
 
 
 """
@@ -23,7 +23,9 @@ class RoomList(generics.ListCreateAPIView):
     API endpoint that represents a list of Requests.
     """
     model = Room
-    serializer_class = RoomSerializer
+    serializer_class = RoomListSerializer
+    renderer_classes = (BrowsableAPIRenderer, JSONRenderer,
+                        JSONPRenderer)
 
 class RoomDetail(generics.RetrieveUpdateDestroyAPIView):
     """
@@ -31,6 +33,8 @@ class RoomDetail(generics.RetrieveUpdateDestroyAPIView):
     """
     model = Room
     serializer_class = RoomSerializer
+    renderer_classes = (BrowsableAPIRenderer, JSONRenderer,
+                        JSONPRenderer)
 
 # class StepList(generics.ListCreateAPIView):
 #     """

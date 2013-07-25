@@ -8,6 +8,6 @@ urlpatterns = patterns('',
     url(r'^$', Index),
     url(r'^admin/', include(admin.site.urls)),
     # -- API routs
-    url(r'^room/(?P<pk>\d+)/$', RoomDetail.as_view(), name='room-detail'),
-    url(r'^room/$', RoomList.as_view(), name='room-list'),
+    url(r'^api/room/(?P<pk>\d+)/$', RoomDetail.as_view(), name='room-detail'),
+    url(r'^api/room/$', RoomList.as_view(), name='room-list'),
 )
